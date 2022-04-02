@@ -23,7 +23,7 @@ h4,
 h5,
 h6,
 p,
-ul {
+ul,{
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -406,17 +406,3 @@ width: 270px;
   padding-bottom: 20px;
 }
 
-.aaa{
-  display: block;
-  outline:#ffffff 1px solid;
-  fill: #2196f3;
-}
-
-.sss{
- 
-  fill: #2196f3;
-}
-
-.dddd{
-  fill: #2196f3;
-}
