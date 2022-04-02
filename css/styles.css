@@ -6,6 +6,8 @@
   --secondaty-text-color: #212121;
   --mark-color: #2196f3;
   --hero-color: #2f303a;
+  --hero-bg-color:#C4C4C4;
+
 }
 
 body {
@@ -211,10 +213,15 @@ width: 270px;
 }
 
 .hero {
-  background-color: var(--hero-color);
+  background-color: var(--hero-bg-color);
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: 
+  linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)
+  ),
+  url('../images/background.jpg');
+  background-size:cover;
 }
 
 .features .list {
@@ -397,4 +404,19 @@ width: 270px;
 .site-footer{
   padding-left: 24px;
   padding-bottom: 20px;
+}
+
+.aaa{
+  display: block;
+  outline:#ffffff 1px solid;
+  fill: #2196f3;
+}
+
+.sss{
+ 
+  fill: #2196f3;
+}
+
+.dddd{
+  fill: #2196f3;
 }
