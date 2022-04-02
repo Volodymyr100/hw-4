@@ -7,6 +7,7 @@
   --mark-color: #2196f3;
   --hero-color: #2f303a;
   --hero-bg-color:#C4C4C4;
+  --smm-icon:#AFB1B8;
 
 }
 
@@ -257,6 +258,7 @@ width: 270px;
   text-align: center;
   letter-spacing: 0.03em;
   margin-top: 30px;
+  margin-bottom: 0px;
 }
 
 .portfolio {
@@ -419,4 +421,35 @@ width: 270px;
   height: 120px;
   width: 270px;
   padding: 25px;
+}
+
+.smm-icon{
+  width: 20px;
+  height: 20px;
+  fill: var(--smm-icon);
+}
+
+.smm-box{
+  display: flex;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50%;
+}
+
+.smm-icon:hover{
+  fill:var(--primary-color);
+}
+
+.smm-box:hover{
+  background-color: var(--mark-color);
+}
+
+.smm-list{
+  display: flex;
+  padding-left: 32px;
+}
+
+.smm-item:not(:last-child) {
+  margin-right: 10px;
 }
