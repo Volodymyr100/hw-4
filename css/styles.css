@@ -439,6 +439,7 @@ width: 270px;
 
 .smm-box:hover .smm-icon{
   fill:var(--primary-color);
+  cursor: pointer;
 }
 
 .smm-box:hover{
@@ -466,21 +467,35 @@ width: 270px;
 }
 
 
-/* .client-box{
+.client-box{
   width: 170px;
   height: 92px;
-  padding: 12px;
-border: #212121 1px solid;
-} */
-
-.client-svg{
-/* width: 170px;
-height: 92px; */
-  outline: #212121 1px solid;
-  /* fill: var(--smm-icon); */
+  padding-top: 16px;
+  padding-left: 32px;
+  border: var(--smm-icon) 1px solid;
+  border-radius: 4px;
+  fill: var(--smm-icon);
 }
 
-/* .ppp{
-  height: 46px;
-  width: 41px;
-} */
+.client-svg{
+width: 106px;
+height: 60px;
+}
+
+.client-box:hover{
+  border: var(--mark-color) 1px solid;
+  fill: var(--mark-color);
+  cursor: pointer;
+}
+
+.display-flex{
+  display: flex;
+}
+
+.client-list:not(:last-child) {
+  margin-right: 30px; 
+}
+
+.client-block{
+  margin-top: 50px;
+}
